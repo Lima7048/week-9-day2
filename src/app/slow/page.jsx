@@ -7,7 +7,7 @@ export default function ActiveLink({ href, children }) {
   const isActive = pathname === href;
 
   return (
-    <Link href={href} className={isActive ? "text-orange-400" : "Home"}>
+    <Link href={href} className={isActive ? "text-orange-400" : ""}>
       {children}
     </Link>
   );
